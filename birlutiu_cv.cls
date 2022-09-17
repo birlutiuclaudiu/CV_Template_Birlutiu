@@ -151,6 +151,9 @@ Position: & \@claimedposition \\
 \newcommand{\explanation}[1]{%
     \mbox { \scshape \hspace{1.2em} \footnotesize #1}\\[0.05cm]
 }
+\newcommand{\extraItem}[1]{%
+    \mbox { \scshape \hspace{1.2em} \footnotesize \textbf{#1}}\\[0.05cm]
+}
 
 \newcommand{\explanationdetail}[1]{%
     \indent \begin{minipage}{0.96\linewidth} \footnotesize #1 \end{minipage} \\[0.1cm]
@@ -204,4 +207,4 @@ Position: & \@claimedposition \\
 \newcommand\createfootnote{%
   \renewcommand{\footnotesize}{\fontsize{7pt}{11pt}\selectfont}
     \renewcommand\footnoterule{\rule{0.3\linewidth}{0.5pt}}
-    \let\thefootnote\relax\footnote{\today\ / \href{https://github.com/muratcankaracabey/latex_cv}{source code}}}
+    \let\thefootnote\relax\footnote{\today\ / \href{https://github.com/birlutiuclaudiu/CV_Template_Birlutiu.git}{source code}}}
