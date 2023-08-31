@@ -23,6 +23,8 @@
 \pagestyle{empty}
 
 %Setup
+\usepackage{enumitem}
+
 
 \newcommand*{\setname}[2]{\def\@firstname{#1}\def\@lastname{#2}}
 \newcommand*{\setbirthdate}[1]{\def\@birth{#1}}
@@ -50,8 +52,8 @@
 % Header
 % can makebox also be used?
 \newcommand\headerview{
-\begin{minipage}{0.25\linewidth}
-    \profpic{0.22}{images/profilpicture.jpg}
+\begin{minipage}{0.4\linewidth}
+    \profpic{0.05}{images/profilpicture.jpg}
 \end{minipage}% 
 \hfill
 \begin{minipage}{0.45\linewidth}
